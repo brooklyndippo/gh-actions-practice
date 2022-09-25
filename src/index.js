@@ -5,3 +5,7 @@ export function hello() {
 export function doMath(a, b) {
 	return a * b
 }
+
+export function random(n) {
+	return Math.floor(Math.random() * n)
+}
